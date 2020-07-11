@@ -14,3 +14,4 @@ elif int(number)>2:
             else:
                 print("{} is not a prime number".format(number))
                 break
+            
