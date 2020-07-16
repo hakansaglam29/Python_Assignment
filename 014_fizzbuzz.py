@@ -11,12 +11,12 @@
 # Note that : This question is famous on the web, so to get
 #  more benefit from this assignment, try to complete this task on your own.
 
-# for i in range(1,101):
-#     if i%15==0: print("FizzBuzz")
-#     elif i%3==0: print("Fizz")
-#     elif i%5==0: print("Buzz")
-#     else: print(i)
+for i in range(1,101):
+    if i%15==0: print("FizzBuzz")
+    elif i%3==0: print("Fizz")
+    elif i%5==0: print("Buzz")
+    else: print(i)
 
-s= ["FizzBuzz" if i%15==0  else "Fizz" if i%3==0 else "Buzz"\
-     if i%5==0 else i for i in range(1,101)]
-for i in s: print(i)
+# s= ["FizzBuzz" if i%15==0  else "Fizz" if i%3==0 else "Buzz"\
+#      if i%5==0 else i for i in range(1,101)]
+# for i in s: print(i)
