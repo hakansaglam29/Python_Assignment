@@ -11,7 +11,7 @@ sudoku = [
 ]
 a = 0
 while a<10:
-    if a == 0 or a==3 or a==6 or a==9:
+    if a % 3 == 0:
         print("- - - - - - - - - - -")
     if a<9:
         print(* sudoku[a][0:3],"|",* sudoku[a][3:6],"|",* sudoku[a][6:])
